@@ -1,5 +1,5 @@
 
-FROM marcuswubi/ubuntu:16.04
+FROM marcuswubi/ubuntu
 
 RUN apt-get update && \
 apt-get install -y apache2
