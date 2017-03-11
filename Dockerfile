@@ -1,7 +1,8 @@
 FROM marcuswubi/docker-ubuntu
 
 RUN apt-get update && \
-apt-get install -y apache2
+apt-get install -y apache2 \
+a2enmod rewrite
 
 EXPOSE 80
 
