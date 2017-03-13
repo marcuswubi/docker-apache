@@ -1,5 +1,7 @@
 FROM marcuswubi/docker-ubuntu:16.04
 
+MAINTAINER maviniciuus <maviniciuus@gmail.com>
+
 RUN apt-get update && \
 apt-get install -y apache2 supervisor && \
 a2enmod rewrite && \
